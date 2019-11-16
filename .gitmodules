@@ -1,6 +1,6 @@
 [submodule "nodejs-sql"]
 	path = nodejs-sql
-	url = ./nodejs-sql/
+	url = git@github.com:MichalSalek/Fullstack-app-back-end.git
 [submodule "react-front"]
 	path = react-front
-	url = ./react-front/
+	url = git@github.com:MichalSalek/Fullstack-app-front-end.git
