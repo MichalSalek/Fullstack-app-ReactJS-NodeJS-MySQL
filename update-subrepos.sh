@@ -6,5 +6,5 @@ timestamp() {
 }
 
 git add .
-git commit -m timestamp
+git commit -m "Updating subrepos... $timestamp"
 git push
