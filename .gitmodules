@@ -1,0 +1,6 @@
+[submodule "nodejs-sql"]
+	path = nodejs-sql
+	url = ./nodejs-sql/
+[submodule "react-front"]
+	path = react-front
+	url = ./react-front/
