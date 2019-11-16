@@ -6,3 +6,7 @@
 	path = react-front
 	url = git@github.com:MichalSalek/Fullstack-app-front-end.git
     ignore = dirty
+[submodule "/nodejs-sql/"]
+	branch = master
+[submodule "/react-front/"]
+	branch = master
