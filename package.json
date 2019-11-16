@@ -1,0 +1,11 @@
+{
+  "name": "Fullstack-app-ReactJS-NodeJS-MySQL",
+  "version": "1.0.0",
+  "repository": "git@github.com:MichalSalek/Fullstack-app-ReactJS-NodeJS-MySQL.git",
+  "author": "Michał Sałek <michal.salek@abventor.com>",
+  "license": "MIT",
+  "scripts": {
+    "start-backend": "bash ./start-backend.sh",
+    "start-frontend": "bash ./start-frontend.sh"
+  }
+}
