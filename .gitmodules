@@ -1,6 +1,8 @@
 [submodule "nodejs-sql"]
 	path = nodejs-sql
 	url = git@github.com:MichalSalek/Fullstack-app-back-end.git
+    ignore = dirty
 [submodule "react-front"]
 	path = react-front
 	url = git@github.com:MichalSalek/Fullstack-app-front-end.git
+    ignore = dirty
