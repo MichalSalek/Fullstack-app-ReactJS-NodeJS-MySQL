@@ -7,6 +7,14 @@
 - This way allows to have several projects in cross with auto update the main boilerplate with each modules.
 --- ---
 #### How to run the app in dev mode?
+Create a localhost database with configuration like this:  
+```
+host: "localhost",
+user: "root",
+password: "toor",
+database: "btc"
+```
+For example may be a MariaDB.  
 After clone, just execute the `yarn start-backend` and `yarn start-frontend` on separate terminals.  
 The origin of the development environment is:
 ```
