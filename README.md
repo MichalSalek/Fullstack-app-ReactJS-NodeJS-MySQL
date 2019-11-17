@@ -7,7 +7,7 @@
 - This way allows to have several projects in cross with auto update the main boilerplate with each modules.
 --- ---
 #### How to run the app in dev mode?
-- Duplicate `environment.example.js` file and call it like `environment.js`. You can find it in `src/common/environment` directory.  
+- Go to Front-end dir and duplicate `environment.example.js` file and call it like `environment.js`. You can find it in `src/common/environment` directory.  
 - Create a localhost database with configuration like this:  
 ```
 host: "localhost",
@@ -31,6 +31,7 @@ Kernel: Linux 5.3.0-kali2-amd64
 #### What paths are available to call?
 `GET/`  
 `GET/addresses`  
+`GET/addresses/add @ address=query`  
 `GET/teapot`
 --- ---
 ### FEATURES
