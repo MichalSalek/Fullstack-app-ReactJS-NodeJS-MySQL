@@ -33,6 +33,9 @@ Kernel: Linux 5.3.0-kali2-amd64
 `GET/addresses`  
 `GET/teapot`
 --- ---
+### FEATURES
+`websocket connection` `simple form input validation` `rwd` `modular structure` `easy deployment` `localhost cors rules`  
+--- ---
 ##### Here are links to the sub-repositories:  
 [Back-end](https://github.com/MichalSalek/Fullstack-app-back-end) and [Front-end](https://github.com/MichalSalek/Fullstack-app-front-end)
 --- ---
