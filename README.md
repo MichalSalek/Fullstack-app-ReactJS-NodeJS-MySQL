@@ -34,7 +34,18 @@ Kernel: Linux 5.3.0-kali2-amd64
 `GET/teapot`
 --- ---
 ### FEATURES
-`websocket connection` `simple form input validation` `rwd` `modular structure` `easy deployment` `localhost cors rules`  
+- `websocket connection`
+- `simple form input validation`
+- `rwd` 
+- `modular structure`
+- `easy deployment`
+- `localhost cors rules`
+- `fetching all addresses on app start (if exists)` 
+- `real-time path: app -> websocket -> nodejs -> mysql -> nodejs -> websocket -> app` 
+--- ---
+###### TODO
+- `refactoring of mysql-server.js nodejs backend component`
+- `other things...`
 --- ---
 ##### Here are links to the sub-repositories:  
 [Back-end](https://github.com/MichalSalek/Fullstack-app-back-end) and [Front-end](https://github.com/MichalSalek/Fullstack-app-front-end)
