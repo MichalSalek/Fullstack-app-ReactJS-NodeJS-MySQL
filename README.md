@@ -1,13 +1,14 @@
 --- ---
-# Fullstack application
+# FullStack application
 ### Stack:  ReactJS ⚛️ + NodeJS 🚀 + SQL db 📙  
 #### How does this repository work?
 - Here is the main repository with submodules.
-- Whenever, on any subrepo you'll going to git push, then bash script will update the main repo with newests commits.
+- Whenever, on any sub-repository you'll going to git push, then bash script will update the main repo with newests commits.
 - This way allows to have several projects in cross with auto update the main boilerplate with each modules.
 --- ---
 #### How to run the app in dev mode?
-Create a localhost database with configuration like this:  
+- Duplicate `environment.example.js` file and call it like `environment.js`. You can find it in `src/common/environment` directory.  
+- Create a localhost database with configuration like this:  
 ```
 host: "localhost",
 user: "root",
@@ -15,7 +16,7 @@ password: "toor",
 database: "btc"
 ```
 For example may be a MariaDB.  
-After clone, just execute the `yarn start-backend` and `yarn start-frontend` on separate terminals.  
+- After clone, just execute the `yarn start-backend` and `yarn start-frontend` on separate terminals.  
 The origin of the development environment is:
 ```
 Kali GNU/Linux Rolling 2019.4
